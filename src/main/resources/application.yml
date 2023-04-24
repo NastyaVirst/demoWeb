@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.1.80:5432/test
+    username: virst
+    password: 111399
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+springdoc:
+  show-actuator: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
